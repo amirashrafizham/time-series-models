@@ -1,0 +1,82 @@
+# -----------------
+# Python cache
+# -----------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -----------------
+# Virtual environments
+# -----------------
+.env
+.venv
+env/
+venv/
+ENV/
+.ipynb_checkpoints/
+
+# -----------------
+# Build / packaging
+# -----------------
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# -----------------
+# Jupyter Notebooks
+# -----------------
+.ipynb_checkpoints
+
+# -----------------
+# Data files (large/raw data)
+# -----------------
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.npz
+*.pkl
+*.joblib
+*.db
+*.sqlite
+data/
+datasets/
+logs/
+checkpoints/
+
+# -----------------
+# Machine Learning models
+# -----------------
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.pb
+models/
+
+# -----------------
+# IDE / Editors
+# -----------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# -----------------
+# OS files
+# -----------------
+.DS_Store
+Thumbs.db
